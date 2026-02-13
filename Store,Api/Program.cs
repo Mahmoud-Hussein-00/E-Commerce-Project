@@ -1,17 +1,4 @@
-using Domain.Contracts;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens.Experimental;
-using Persistence;
-using Persistence.Data;
-using Services;
-using Services.Abstrations;
-using Services.MappingProfiles;
-using Store_Api.ErrorModel;
 using Store_Api.Extensions;
-using Store_Api.MiddleWare;
-using System.Threading.Tasks;
 
 //using AssemblyMapping = Services.MappingProfiles.productProfile;
 
